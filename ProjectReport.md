@@ -8,7 +8,7 @@ For the first challenge, my solution was to simply reconfigure the Guice
 module. Specifically, I changed the binding of QueryEngine to
 WikipediaQueryEngine instead of FakeQueryEngine.
 
-## Challenge #2 Complete
+## Challenge #2 Incomplete
 
 (Explain your solution to Challenge #2. If it is not complete, change
 the subsection title above to "Incomplete" and explain how far you got
@@ -28,11 +28,6 @@ I used it to add a newline between each of the strings.
 (Write one or more paragraphs comparing and contrasting the iterative and functional  
 approaches to string concatenation you explored in challenge #3. Which do you
 prefer, and why?)
-
-While I believe both approaches are great, 
-
-the functional approach is more high level
-the functional approach is cleaner
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
