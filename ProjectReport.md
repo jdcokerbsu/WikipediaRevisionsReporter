@@ -1,24 +1,12 @@
 # Project Report
 
-(Put your name here)
-
-## Markdown Tips
-
-If you are unfamiliar with MarkDown, check out 
-[the official documentation](https://guides.github.com/features/mastering-markdown/).
-
-Note that IntelliJ IDEA has a Markdown preview that you can access in 
-the upper-right of the editor. Also, since Markdown documents&mdash;like
-source code&mdash;should be human-readable, make sure you keep your lines
-short, as you can see I have done in my Markdown files.
-
-Please remove this subsection before submitting your report. 
+Jesse Coker
 
 ## Challenge #1 Complete
 
-(Explain your solution to Challenge #1. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+For the first challenge, my solution was to simply reconfigure the Guice
+module. Specifically, I changed the binding of QueryEngine to
+WikipediaQueryEngine instead of FakeQueryEngine.
 
 ## Challenge #2 Complete
 
@@ -28,15 +16,23 @@ and where you got stuck.)
 
 ## Challenge #3 Complete
 
-(Explain your solution to Challenge #3. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+I began this challenge by researching and experimenting with Java's
+stream(). I created an empty project and figured out how to concatenate
+strings in an ArrayList using stream() and collect(). Then, I discovered
+map() through reading Java's API, which was key for calling upon the
+formatter. Since collect() takes in an optional parameter for a delimiter,
+I used it to add a newline between each of the strings.
 
 ## Reflection Question #1: Functional vs OO
 
 (Write one or more paragraphs comparing and contrasting the iterative and functional  
 approaches to string concatenation you explored in challenge #3. Which do you
 prefer, and why?)
+
+While I believe both approaches are great, 
+
+the functional approach is more high level
+the functional approach is cleaner
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
